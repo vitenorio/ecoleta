@@ -1,6 +1,6 @@
 <div align='center'> 
 <h1> :recycle: Ecoleta </h1>
-<h4> Market place para coleta de resíduos desenvolvida na next level week </h4>
+<h4> Marketplace para coleta de resíduos desenvolvida na next level week </h4>
 </div> 
 <h2> :zap: Sobre o projeto </h2>
 <h4> Construída para conectar pessoas a empresa de coleta de resíduos. </h4>
