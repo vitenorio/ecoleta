@@ -5,6 +5,7 @@ class ItemsController {
     async index (request: Request, response: Response) {
 
         const items = await knex('items').select('*')
+        
         const serializedItems = items.map(item => {
             return {
                 id: item.id,
@@ -13,7 +14,7 @@ class ItemsController {
             }
         })
      
-        return response.json(items)
+        return response.json(serializedItems)
      }
 }
 
